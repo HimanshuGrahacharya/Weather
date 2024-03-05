@@ -1,0 +1,66 @@
+/* https://api.openweathermap.org/data/2.5/weather?q=delhi&appid=2e320e2616041936969a333786b1ec59 */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;1,300&display=swap"); */
+
+* {
+  padding: 0;
+
+  margin: 0;
+  font-family: "jost", sans-serif;
+}
+
+.page {
+  border: solid 1px rgb(238, 239, 239);
+  width: 550px;
+  height: 600px;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 10px 10px 10px pink;
+  border-radius: 20px;
+}
+
+.weatherBg {
+  border: solid 0px red;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+  background: url("https://wallpaperaccess.com/full/1540001.jpg");
+
+  width: 450px;
+  height: 260px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* background-repeat: no-repeat; */
+}
+.heading {
+  color: white;
+  font-weight: 700;
+}
+
+.weatherResultBox {
+  border: solid 0px red;
+  border-radius: 20px;
+  margin: auto;
+  width: 450px;
+  height: 260px;
+}
+.weatherIcon {
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+}
+
+.weatherCity {
+  font-size: 35px;
+}
+.weatherTemp {
+  font-size: 40px;
+}
